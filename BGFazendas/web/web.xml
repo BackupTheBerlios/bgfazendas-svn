@@ -1,0 +1,18 @@
+<!-- The Mentawai controller -->
+<web-app>
+<servlet>
+	<servlet-name>Controller</servlet-name>
+	<servlet-class>org.mentawai.core.Controller</servlet-class>
+	 <init-param>
+        <param-name>applicationManager</param-name>
+        <param-value>br.bgfazendas.conf.ApplicationManager</param-value>
+    </init-param>   
+	<load-on-startup>1</load-on-startup>		
+</servlet>
+
+<!-- You must choose an extension to indicate a mentawai action -->
+<servlet-mapping>
+	<servlet-name>Controller</servlet-name>
+	<url-pattern>*.mtw</url-pattern>
+</servlet-mapping>
+</web-app>
