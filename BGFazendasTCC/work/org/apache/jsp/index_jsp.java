@@ -13,8 +13,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList(2);
-    _jspx_dependants.add("/web/jsp/Topo.jsp");
-    _jspx_dependants.add("/web/jsp/Rodape.jsp");
+    _jspx_dependants.add("/web/jsp/topo/Topo.jsp");
+    _jspx_dependants.add("/web/jsp/rodape/Rodape.jsp");
   }
 
   private javax.el.ExpressionFactory _el_expressionfactory;

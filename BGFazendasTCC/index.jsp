@@ -7,10 +7,10 @@
 		
 		</title>
 	</head>
-	<%@ include file = "/web/jsp/Topo.jsp"%>
+	<%@ include file = "/web/jsp/topo/Topo.jsp"%>
 	<body>
 		
 		
 	</body>
-	<%@ include file = "/web/jsp/Rodape.jsp"%>
+	<%@ include file = "/web/jsp/rodape/Rodape.jsp"%>
 </html>
