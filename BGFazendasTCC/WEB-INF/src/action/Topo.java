@@ -17,7 +17,7 @@ public class Topo extends BaseAction implements Configurable{
 	
 	public String abrirMenu()
 	{
-		String menu = "AGENDA | VACINA | LOGOUT";
+		String menu = "<a href = '/BGFazendas'>PAGINA INICIAL</a> | AGENDA | <a href = '/BGFazendas/web/jsp/vacina/index.jsp'>VACINA</a> | LOGOUT";
 		
 		output.setValue("menu", menu);
 		return "MENU";

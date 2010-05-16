@@ -3,13 +3,14 @@
 <script language = "javaScript">
 	function montarMenu()
 	{
+		var data = new Date();
 		AjaxRequestMontarMenu();
 		if(!AjaxMontarMenu){
 			alert("Erro no AJAX");
 			return;
 		}			
 		AjaxMontarMenu.onreadystatechange = mostrarMenu;
-		AjaxMontarMenu.open('POST',"Topo.abrirMenu.mtw", true);
+		AjaxMontarMenu.open('POST',"/BGFazendas/Topo.abrirMenu.mtw?data="+data.getMilliseconds(), true);
 		AjaxMontarMenu.send(null);
 	}
 	
@@ -46,7 +47,7 @@
 	}
 </script>
 
-<table width = "1024" height = "768" border = "1" align = "center" cellspacing = "0" cellpadding = "0">
+<table width = "1024" border = "1" align = "center" cellspacing = "0" cellpadding = "0">
 	<tr>
 		<td valign = "top">
 		 	<table cellpadding = "0" cellspacing = "0">
@@ -69,5 +70,5 @@
 	</tr>
 </table>
 <script>
-		montarMenu();
+	montarMenu();
 </script>
