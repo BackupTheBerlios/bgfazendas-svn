@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/web</rootDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo></extraInfo>
+    <webPath>/bgfazenda</webPath>
+    <webClassPathEntries>
+        <webClassPathEntry>/bgfazenda/WEB-INF/classes</webClassPathEntry>
+        <webClassPathEntry>/bgfazenda/web/WEB-INF/lib/c3p0-0.9.1.2.jar</webClassPathEntry>
+        <webClassPathEntry>/bgfazenda/web/WEB-INF/lib/mentawai.jar</webClassPathEntry>
+        <webClassPathEntry>/bgfazenda/web/WEB-INF/lib/mysql-connector-java-3.1.12-bin.jar</webClassPathEntry>
+    </webClassPathEntries>
+</tomcatProjectProperties>
