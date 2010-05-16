@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry path="org.eclipse.jdt.launching.JRE_CONTAINER" kind="con"/>
+	<classpathentry path="TOMCAT_HOME/lib/servlet-api.jar" kind="var"/>
+	<classpathentry path="TOMCAT_HOME/lib/jasper.jar" kind="var"/>
+	<classpathentry path="TOMCAT_HOME/lib/jsp-api.jar" kind="var"/>
+	<classpathentry path="TOMCAT_HOME/lib/el-api.jar" kind="var"/>
+	<classpathentry path="TOMCAT_HOME/lib/annotations-api.jar" kind="var"/>
+	<classpathentry path="WEB-INF/src" kind="src"/>
+	<classpathentry path="work" output="work" kind="src"/>
+	<classpathentry path="C:/Documents and Settings/Gustavo/Meus documentos/intranet/BGFazendas/WEB-INF/lib/mentawai.jar" kind="lib"/>
+	<classpathentry path="WEB-INF/classes" kind="output"/>
+</classpath>
